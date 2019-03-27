@@ -1,0 +1,55 @@
+html{
+    height:100%; 
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color: #f6e3c8;
+    font-size: 1vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgba(96,190,212,1);
+    background: -moz-linear-gradient(top, rgba(96,190,212,1) 0%, rgba(236,177,90,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(96,190,212,1)), color-stop(100%, rgba(236,177,90,1)));
+    background: -webkit-linear-gradient(top, rgba(96,190,212,1) 0%, rgba(236,177,90,1) 100%);
+    background: -o-linear-gradient(top, rgba(96,190,212,1) 0%, rgba(236,177,90,1) 100%);
+    background: -ms-linear-gradient(top, rgba(96,190,212,1) 0%, rgba(236,177,90,1) 100%);
+    background: linear-gradient(to bottom, rgba(96,190,212,1) 0%, rgba(236,177,90,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60bed4', endColorstr='#ecb15a', GradientType=0 );
+
+}
+
+h1 {
+    font-size: 7vw;
+    letter-spacing: -3px;
+    color: #f6e3c8;
+}
+
+.container{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: none;
+
+}
+
+.container div{
+    //the child
+    padding: 10px;
+    margin: 10px;
+    border-width: 1vw;
+    border-style: dotted none none none;
+    flex: 0 0 15em;
+    // item property flex: flex-grow flex-shrink flex-basis;
+}
+
+.boxen{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
